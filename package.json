@@ -7,9 +7,23 @@
     "type": "git",
     "url": "git+https://github.com/JISSJOHNSON/vue-share-to-social.git"
   },
+  "keywords": [
+    "socia share",
+    "social",
+    "share",
+    "vue",
+    "vue share"
+  ],
+  "main": "dist/vue-share-to-social.common.js",
+  "files": [
+    "dist/*",
+    "*.js",
+    "*.json"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-module": "vue-cli-service build --target lib --name vue-share-to-social src/components/SocialShare.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -48,5 +62,10 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/JISSJOHNSON/vue-share-to-social/issues"
+  },
+  "homepage": "https://github.com/JISSJOHNSON/vue-share-to-social#readme",
+  "license": "MIT"
 }
