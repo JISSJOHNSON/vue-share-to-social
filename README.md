@@ -2,10 +2,13 @@
 
 A simple dynamic table build with vue.js
 
-### [npm](https://www.npmjs.com/package/vue-share-to-social)
-### [github](https://github.com/JISSJOHNSON/vue-share-to-social)
+### [npm](https://www.npmjs.com/package/vue-share-to-social)  [github](https://github.com/JISSJOHNSON/vue-share-to-social)
 
 ## Installation
+
+### prerequisites
+
+1. [Vuetify](https://vuetifyjs.com/en/getting-started/installation/)
 
 ```
 npm i --save vue-share-to-social
